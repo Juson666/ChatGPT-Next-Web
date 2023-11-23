@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT-领航出海
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant —— Powered by Juson
+          Powered by Juson
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -202,12 +202,12 @@ export function SideBar(props: { className?: string }) {
       
 <div className={styles["sidebar-action"]}>
             <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
-              GPT-语音版
+              <IconButton icon={<GithubIcon />} shadow />GPT-语音版
             </a>
           </div>
 <div className={styles["sidebar-action"]}>
             <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
-              GPT-备用版
+              <IconButton icon={<GithubIcon />} shadow />GPT-备用版
             </a>
           </div>
     
