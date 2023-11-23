@@ -205,7 +205,6 @@ export function SideBar(props: { className?: string }) {
   <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
     <IconButton icon={<GithubIcon />} shadow>
       GPT-语音版
-    </IconButton>
   </a>
 </div>
 <div className={styles["sidebar-action"]}>
