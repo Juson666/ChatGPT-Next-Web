@@ -199,23 +199,18 @@ export function SideBar(props: { className?: string }) {
         <ChatList narrow={shouldNarrow} />
       </div>
 
-
-<div class="home_sidebar-action__IVfyJ" style="margin-right: 0px;">
-  <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
-    <button class="button_icon-button__VwAMf undefined button_shadow__G4m_0 clickable undefined" role="button" style="text-decoration: none !important;text-decoration: underline; ">
-     GPT-语音版
-    </button>
-  </a>
-</div>
-
-<div class="home_sidebar-action__IVfyJ" style="margin-right: 0px;">
-  <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
-    <button class="button_icon-button__VwAMf undefined button_shadow__G4m_0 clickable undefined" role="button" style="text-decoration: none !important;text-decoration: underline; ">
-     GPT-备用版
-    </button>
-  </a>
-</div>
       
+<div className={styles["sidebar-action"]}>
+            <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
+              GPT-语音版
+            </a>
+          </div>
+<div className={styles["sidebar-action"]}>
+            <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
+              GPT-备用版
+            </a>
+          </div>
+    
 
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
