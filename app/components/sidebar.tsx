@@ -202,16 +202,16 @@ export function SideBar(props: { className?: string }) {
       
 import React from 'react';
 
-<div className={styles["sidebar-action"]} style={{ marginRight: '0px' }}>
+<div className={styles["sidebar-action"]}>
   <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
-    <IconButton icon={<GithubIcon />} shadow={true} style={{ width: '100%' }}>
+    <IconButton icon={<GithubIcon />} shadow={true}>
       <span>GPT-语音版</span>
     </IconButton>
   </a>
 </div>
-<div className={styles["sidebar-action"]} style={{ marginRight: '0px' }}>
+<div className={styles["sidebar-action"]}>
   <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
-    <IconButton icon={<GithubIcon />} shadow={true} style={{ width: '100%' }}>
+    <IconButton icon={<GithubIcon />} shadow={true}>
       <span>GPT-备用版</span>
     </IconButton>
   </a>
