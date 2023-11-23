@@ -200,16 +200,20 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       
-<div className={styles["sidebar-action"]}>
-            <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />GPT-语音版
-            </a>
-          </div>
-<div className={styles["sidebar-action"]}>
-            <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />GPT-备用版
-            </a>
-          </div>
+<div className={styles["sidebar-action"]} style={{ marginRight: '0px' }}>
+  <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
+    <IconButton icon={<GithubIcon />} shadow style={{ width: '100%' }}>
+      GPT-语音版
+    </IconButton>
+  </a>
+</div>
+<div className={styles["sidebar-action"]} style={{ marginRight: '0px' }}>
+  <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
+    <IconButton icon={<GithubIcon />} shadow style={{ width: '100%' }}>
+      GPT-备用版
+    </IconButton>
+  </a>
+</div>
     
 
       <div className={styles["sidebar-tail"]}>
