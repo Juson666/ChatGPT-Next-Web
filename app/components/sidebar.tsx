@@ -211,7 +211,6 @@ export function SideBar(props: { className?: string }) {
   <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
     <IconButton icon={<GithubIcon />} shadow />
       GPT-备用版
-    </IconButton>
   </a>
 </div>      
     
