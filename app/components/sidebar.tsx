@@ -228,7 +228,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://gpt1.juson.top" target="_blank" rel="noopener noreferrer">
+            <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
               <IconButton icon={<OldIcon />} text="旧版" shadow />
             </a>
           </div>
