@@ -186,6 +186,15 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
+        <a href="https://juson666.github.io" className={styles["sidebar-link-button"]}>
+        <IconButton
+          icon={<PluginIcon />}
+          text="语音版"
+          className={styles["sidebar-bar-button"]}
+          onClick={() => showToast(Locale.WIP)}
+          shadow
+        />
+        </a>
       </div>
 
       <div
@@ -199,26 +208,6 @@ export function SideBar(props: { className?: string }) {
         <ChatList narrow={shouldNarrow} />
       </div>
 
-
-<div className={styles["sidebar-header-bar"]}>
-    <a href="https://juson666.github.io" className={styles["sidebar-link-button"]}>
-        <IconButton
-            icon={<MaskIcon />}
-            text={shouldNarrow ? undefined : Locale.Mask.Name}
-            className={styles["sidebar-bar-button"]}
-            shadow
-        />
-    </a>
-    <a href="http://gpt3.juson.top" className={styles["sidebar-link-button"]}>
-        <IconButton
-            icon={<PluginIcon />}
-            text={shouldNarrow ? undefined : Locale.Plugin.Name}
-            className={styles["sidebar-bar-button"]}
-            shadow
-        />
-    </a>
-</div>  
-    
 
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
