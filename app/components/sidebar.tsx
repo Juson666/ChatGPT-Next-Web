@@ -13,6 +13,7 @@ import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 import DragIcon from "../icons/drag.svg";
 import VoiceIcon from "../icons/voice.svg";
+import OldIcon from "../icons/old.svg";
 
 import Locale from "../locales";
 
@@ -227,8 +228,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<VoiceIcon />} text="语音版" shadow />
+            <a href="https://gpt1.juson.top" target="_blank" rel="noopener noreferrer">
+              <IconButton icon={<OldIcon />} text="旧版" shadow />
             </a>
           </div>
         </div>
