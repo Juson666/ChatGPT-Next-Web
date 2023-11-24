@@ -200,8 +200,6 @@ export function SideBar(props: { className?: string }) {
       </div>
 
 
-import { Link } from 'react-router-dom';
-
 <div className={styles["sidebar-header-bar"]}>
     <Link to="https://juson666.github.io">
         <IconButton
