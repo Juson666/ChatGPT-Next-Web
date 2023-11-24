@@ -208,7 +208,18 @@ export function SideBar(props: { className?: string }) {
   </a>
 </div>
 <div className={styles["sidebar-action"]}>
-  <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer">
+  <a href="http://gpt3.juson.top" target="_blank" rel="noopener noreferrer" style="
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    padding: 5px;
+    height: 23px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 15px;
+">
     <IconButton icon={<GithubIcon />} shadow />
       GPT-备用版
   </a>
