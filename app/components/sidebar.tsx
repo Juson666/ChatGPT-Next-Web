@@ -12,6 +12,7 @@ import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 import DragIcon from "../icons/drag.svg";
+import VoiceIcon from "../icons/voice.svg";
 
 import Locale from "../locales";
 
@@ -186,12 +187,11 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
-        <a href="https://juson666.github.io" className={styles["sidebar-link-button"]}>
+        <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
         <IconButton
-          icon={<PluginIcon />}
+          icon={<VoiceIcon />}
           text="语音版"
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
           shadow
         />
         </a>
@@ -227,8 +227,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
+            <a href="https://juson666.github.io" target="_blank" rel="noopener noreferrer">
+              <IconButton icon={<VoiceIcon />} text="语音版" shadow />
             </a>
           </div>
         </div>
