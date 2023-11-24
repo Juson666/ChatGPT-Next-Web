@@ -201,23 +201,23 @@ export function SideBar(props: { className?: string }) {
 
 
 <div className={styles["sidebar-header-bar"]}>
-    <Link to="https://juson666.github.io">
+    <a href="https://juson666.github.io" className={styles["sidebar-link-button"]}>
         <IconButton
             icon={<MaskIcon />}
             text={shouldNarrow ? undefined : Locale.Mask.Name}
             className={styles["sidebar-bar-button"]}
             shadow
         />
-    </Link>
-    <Link to="http://gpt3.juson.top">
+    </a>
+    <a href="http://gpt3.juson.top" className={styles["sidebar-link-button"]}>
         <IconButton
             icon={<PluginIcon />}
             text={shouldNarrow ? undefined : Locale.Plugin.Name}
             className={styles["sidebar-bar-button"]}
             shadow
         />
-    </Link>
-</div>   
+    </a>
+</div>  
     
 
       <div className={styles["sidebar-tail"]}>
